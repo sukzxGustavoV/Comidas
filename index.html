@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio de Pratos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>- Cardápio de Pratos -</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <main>
+        <section class="gallery">
+            <!-- Repetindo os cards para incluir 9 pratos -->
+            <div class="card">
+                <img src="https://www.villefort.com.br/sites/default/files/fruit-salad-in-bowl-on-the-table%400%2C33x.png" alt="Salada de Fruta">
+                <button onclick="expandImage('https://www.villefort.com.br/sites/default/files/fruit-salad-in-bowl-on-the-table%400%2C33x.png')">Ver Imagem maior</button>
+                <button onclick="playDescription('Salada de Fruta')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="https://specialepaes.com/wp-content/uploads/2021/10/blog-speciale-receita.png" alt="Lanche Natural">
+                <button onclick="expandImage('https://specialepaes.com/wp-content/uploads/2021/10/blog-speciale-receita.png')">Ver Imagem maior</button>
+                <button onclick="playDescription('Lanche Natural')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="https://www.recetasnestle.com.ec/sites/default/files/srh_recipes/409b2aabfc7c86f27e179375f589b031.jpg" alt="Sopa de Legumes">
+                <button onclick="expandImage('https://www.recetasnestle.com.ec/sites/default/files/srh_recipes/409b2aabfc7c86f27e179375f589b031.jpg')">Ver Imagem maior</button>
+                <button onclick="playDescription('Sopa de Legumes')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="https://www.receiteria.com.br/wp-content/uploads/receitas-de-sucos-detox.png" alt="Suco Detox">
+                <button onclick="expandImage('https://www.receiteria.com.br/wp-content/uploads/receitas-de-sucos-detox.png')">Ver Imagem maior</button>
+                <button onclick="playDescription('Suco Detox')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="https://www.assai.com.br/sites/default/files/blog/copos_com_sucos_de_frutas_-_suco_natural_-_assai_atacadista.jpg" alt="Suco Natural">
+                <button onclick="expandImage('https://www.assai.com.br/sites/default/files/blog/copos_com_sucos_de_frutas_-_suco_natural_-_assai_atacadista.jpg')">Ver Imagem maior</button>
+                <button onclick="playDescription('Sucos naturais de vários sabores')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="https://blog.savegnago.com.br/wp-content/uploads/2023/03/picole-de-morango.webp" alt="Picolé de Morango">
+                <button onclick="expandImage('https://blog.savegnago.com.br/wp-content/uploads/2023/03/picole-de-morango.webp')">Ver Imagem maior</button>
+                <button onclick="playDescription('Picolé de Morango')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="https://www.adrianalauffer.com.br/wp-content/uploads/2020/02/Receita-de-brownie-de-batata-doce-e-whey-protein.png" alt="Brownie de Batato doce com Whey">
+                <button onclick="expandImage('https://www.adrianalauffer.com.br/wp-content/uploads/2020/02/Receita-de-brownie-de-batata-doce-e-whey-protein.png')">Ver Imagem maior</button>
+                <button onclick="playDescription('Brownie de Batato doce com Whey')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="https://www.receiteria.com.br/wp-content/uploads/brigadeiro-de-whey-e1694009851484.jpg" alt="Brigadeiro Proteico">
+                <button onclick="expandImage('https://www.receiteria.com.br/wp-content/uploads/brigadeiro-de-whey-e1694009851484.jpg')">Ver Imagem maior</button>
+                <button onclick="playDescription('Brigadeiro Proteico com Whey')">Ouvir Descrição</button>
+            </div>
+            <div class="card">
+                <img src="https://www.pingodoce.pt/wp-content/uploads/2016/02/doce-de-limao-e-gengibre.jpg" alt="Doce de Limão com Gengibre">
+                <button onclick="expandImage('https://www.pingodoce.pt/wp-content/uploads/2016/02/doce-de-limao-e-gengibre.jpg')">Ver Imagem maior</button>
+                <button onclick="playDescription('Doce de Limão com Gengibre')">Ouvir Descrição</button>
+            </div>
+        </section>
+    </main>
+   
+    <footer>
+        <p> Desenvolvido por Gustavo Vieira</p>
+    </footer>
+ 
+    <script src="script.js"></script>
+</body>
+</html>
